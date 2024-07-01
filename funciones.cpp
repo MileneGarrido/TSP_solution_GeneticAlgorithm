@@ -57,7 +57,6 @@ void Individuo::CalcularFitness(Punto ciudades[NUM_CIUDADES]) {
     // Volver al punto de inicio
     int idx_inicio = genotipo[0];
     int idx_fin = genotipo[NUM_CIUDADES - 1];
-    fitness += CalcularDistancia(ciudades[idx_inicio], ciudades[idx_fin]);
 }
 
 void Individuo::MostrarRuta() {
